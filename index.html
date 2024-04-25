@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Notícias</title>
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOpLy_ghZRv37263Ks23Bfx4rS_iyFoTSMtkJFUEymHw&s"
+        type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="text-center p-5 bg-blue">
+        <h1 class="display-3">Portal de Notícias</h1>
+        <p>As últimas notícias do mundo para você ficar atualizado!</p>
+    </header>
+
+    <main class="container mt-5">
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="py-5">
+                    <h2>Últimas Notícias</h2>
+                </div>
+
+                <div id="noticias">
+
+                </div>
+
+                <div>
+                    <h2 class="py-5">Cadastre as Notícias!</h2>
+                    <form id="formulario-noticias">
+                        <div class="form-group">
+                            <label for="titulo-noticia">Título</label>
+                            <input type="text" id="titulo-noticia" class="form-control" placeholder="Título da notícia">
+                        </div>
+                        <div class="form-group">
+                            <label for="conteudo-noticia">Conteúdo</label>
+                            <textarea id="conteudo-noticia" class="form-control"
+                                placeholder="Conteúdo da notícia"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-blue">Cadastrar Notícia</button>
+                        <p id="mensagem-noticia" class="mt-3"></p>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <img src="https://s2-extra.glbimg.com/S2ju94dXphJlZWb_ZYFwXfKK7OI=/0x0:1296x864/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2024/Q/a/131SmkQpGQ1rTgPe1syQ/106614160-ri-rio-17-04-2024-caso-da-mulher-que-levou-o-corpo-de-homem-morto-a-agencia-bancaria.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Morto em agência bancária: motorista de aplicativo e mototaxista dizem
+                            que idoso estava vivo quando entrou no carro</h5>
+                        <p class="card-text">Em depoimento, mototaxista afirmou que, quando ajudou Erika Nunes a colocar
+                            Paulo Roberto Braga no carro, percebeu que o
+                            idoso ainda respirava e tinha força nas mãos. Motorista afirmou que ele colocou a mão na
+                            maçaneta do carro.</p>
+                        <a href="#" class="btn btn-blue">Ver Noticia</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <img src="https://s2-g1.glbimg.com/xZekixpohVQ0rokW7dTQrHM4VGw=/0x0:1024x683/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/D/K/f7h3PMSfitaHzBAzer0A/ap24107512457334.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Reino Unido quer proibir cigarros ou vapes para todos os nascidos após
+                            2008 e criar a primeira geração não fumante da
+                            história</h5>
+                        <p class="card-text">A partir de 2027, a cada ano a idade mínima para comprar cigarro vai
+                            aumentar. Assim, uma geração inteira jamais vai
+                            poder comprar tabaco legalmente no país.</p>
+                        <a href="#" class="btn btn-blue">Ver Noticia</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <img src="https://s2-g1.glbimg.com/XU6LRgxgK6_zT0klptgYszWqJYY=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/A/i/oAXB3kTCybYCJv98LeEg/bdrj-limpo-20240418-0540-frame-260428.jpeg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Golpista atrai vítimas com anúncios de falsos iPhones nas redes sociais
+                        </h5>
+                        <p class="card-text">Uma das vítimas teve um prejuízo de R$ 2 mil após comprar um iPhone
+                            anunciado em uma rede social.</p>
+                        <a href="#" class="btn btn-blue">Ver Noticia</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center p-5 bg-blue">
+        <p>&copy; 2024 Portal de Notícias. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
+
